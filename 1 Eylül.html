@@ -1,0 +1,510 @@
+
+<html>
+
+    <title> YAZILIM-pedia </title>
+    
+        <head>
+    
+            <style type="text/css">
+    #body-boy {
+        background-color: bisque;
+    }
+    
+    h2 {
+        font-family: Century Gothic;
+        position: absolute;
+        left: 50px;
+        top: 3%;
+    }
+    
+    h1 {
+        font-family: Century Gothic;
+        text-align: center;
+        position: 50% 50%;
+        position: absolute;
+        left: 35%;
+        top: 50%;
+    }
+    
+    #cizgi1 {
+        width: 1500px;
+        position: absolute;
+        top: 100%;
+    }
+    
+    #blog {
+        font-family: Century Gothic;
+        position: absolute;
+        top: 745px;
+        left: 680px;
+    }
+    
+    #python {
+        font-family: Century Gothic;
+        position: absolute;
+        top: 800px;
+        left: 200px;
+    }
+    
+    #c {
+        font-family: Century gothic;
+        position: absolute;
+        top: 800px;
+        left: 1160px;
+    }
+    
+    ol {
+        font-family: Century gothic;
+        position: absolute;
+        top: 880px;
+        left: 100px;
+        line-height: 250%;
+        font-size: larger;
+    }
+    ol :hover{background-color: chartreuse; text-decoration: none;}
+    
+    #ol2 {
+        font-family: Century gothic;
+        position: absolute;
+        top: 880px;
+        left: 1060px;
+        line-height: 250%;
+        font-size: larger;
+    }
+    #ol2 :hover{background-color:chartreuse ; text-decoration: none;}
+     
+    #dfazla {
+        font-family: Century Gothic;
+        position: absolute;
+        top: 1200px;
+        left: 1250px;
+    }
+    
+    #cizgi2 {
+        width: 1500px;
+        position: absolute;
+        top: 180%;
+    }
+    
+    #yorum {
+        font-family: Century Gothic;
+        text-align: center;
+        position: absolute;
+        left: 610px;
+        top: 1335px;
+    }
+
+    #cizgi3 {
+        width: 1500px;
+        position: absolute;
+        top: 280%;
+    }
+
+    #dipnot {
+        font-family: Century Gothic;
+        color: #1d2120;
+        position: absolute;
+        top: 285%;
+        text-align: center;
+    }
+
+    #cizgi4 {
+        width: 1500px;
+        position: absolute;
+        top: 290%;
+    }
+    
+    
+    
+            </style>
+    
+
+            <style type="text/css">
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+    
+        *:focus {
+          outline: 0;
+        }
+    
+        html {
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    
+        body {
+              align-items: center;
+              background-color: skyblue;
+              display: flex;
+              font-family: 'Poppins', sans-serif;
+              justify-content: center;
+              min-height: 100vh;
+        }
+    
+        ul {
+              display: flex;
+              margin: 0 10px;
+              position: absolute;
+              top: 4%;
+              left: 35%;
+        }
+    
+    
+        ul li:before {
+              background-size: cover;
+              content: '';
+              height: 200px;
+              left: -65px;
+              opacity: 0;
+              position: absolute;
+              top: -90px;
+              transform: translateY(100px);
+              transition: opacity 0.5s ease,
+                                                  transform 0.5s ease;
+              width: 200px;
+              z-index: -1;
+        }
+        
+        ul li:hover:before {
+              opacity: 0.5;
+              transform: translateY(0);
+              transition-delay: 0.5s;
+        }
+        ul li {
+              list-style: none;
+              margin: 0 10px;
+              position: relative;
+        }
+        ul li a {
+              display: block;
+              font-weight: 600;
+              height: 20px;
+              overflow: hidden;
+              position: relative;
+              text-decoration: none;
+              text-transform: uppercase;
+        }
+        ul li a span {
+              color: rgb(255, 0, 0);
+              display: block;
+              height: 100%;
+              transition: transform 0.5s ease;
+              width: 100%;
+        }
+        ul li a span:nth-child(1) {
+              color: #444444;
+        }
+        ul li:hover a span:nth-child(1) {
+              transform: translateY(-100%);
+        }
+        ul li a span:nth-child(2) {
+              color:rgb(255, 0, 0) ;
+        }
+        ul li:hover a span:nth-child(2) {
+              transform: translateY(-100%);
+        }
+    
+            </style>
+    
+    
+            <style type="text/css">
+    #box {
+        max-width: 200px;
+        position: absolute;
+        top: 2%;
+        left: 85%;
+    }
+    
+    #box .fa-search {
+        position: absolute;
+        top: 14px;
+        left: 12px;
+        font-size: 18px;
+        color: skyblue;
+    }
+    
+    #search  {
+        width: 100px;
+        box-sizing: border-box;
+        border: 1px solid cornflowerblue;
+        border-radius: 4px;
+        font-size: 18px;
+        padding: 12px 20px 12px 40px;
+        -moz-transition: width 0.4s ease-in-out;
+        -o-transition: witdh 0.4s ease-in-out;
+        transition: witdh 0.4s ease-in-out;
+        font-family: Century Gothic;
+        height: 45px;
+    }
+    
+    #search:focus {
+        width: 100%;
+    }
+    
+            </style>
+    
+            <meta charset="utf-8">
+            <title>Kayıt Ol</title>
+            <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+            <link rel="stylesheet" href="style.css">
+            <style type="text/css">
+            
+            
+            
+            @import url('https;//fonts.googleapis.com/css?family=Josefin+Sans');
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            text-decoration: none;
+            font-family: 'Josefin Sans', sans-serif;
+            }
+            
+            body {
+                background-color: bisque;
+            }
+            
+            
+            .wrapper{
+            max-width: 350px;
+            width: 100%;
+            height: 450px;
+            padding: 60px 45px;
+            position: absolute;
+            top: 1650px;
+            left: 650px;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+            font-weight: 100;
+            }
+            .wrapper .title{
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 26px;
+            color: #3aaf9f;
+            }
+            .wrapper .form .input_field{
+            position: relative;
+            margin-bottom: 10px;
+            }
+            .wrapper .form .input_field .input{
+            width: 200%;
+            padding: 12px;
+            padding-left: 30px;
+            border: none;
+            background-color: white;
+            }
+            
+            .wrapper .form .input_field .input2 {
+            width: 200%;
+            height: 75%;
+            padding: 12px;
+            padding-left: 30px;
+            border: none;
+            background: white;
+            }
+            
+            .wrapper .form .btn{
+            width: 70%;
+            margin: 20px auto 0;
+            background: #3aaf9f;
+            padding: 12px;
+            text-align: center;
+            border-radius: 25px;
+            position: absolute;
+            left: 50%;
+            }
+            .wrapper .form .btn a{
+            color: #fff;
+            }
+            .wrapper .form .input_field i{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #1d2120;
+            font-size: 14px;
+            }
+            
+            ::-webkit-input-placeholder{
+            color: #848484;
+            }
+            
+            </style>
+
+        </head>
+    
+
+    <body>
+
+
+        <body id="body-boy">
+        <h2> " YAZILIM-pedia " </h2>
+        <h1> Bu Zaman,<p> YAZILIM-pedia'yı keşfetme zamanı</h1>
+        </body>
+        <hr id="cizgi1"/>
+        <hr id="cizgi2"/>
+        <hr id="cizgi3"/>
+        <hr id="cizgi4"/>
+        
+    
+        <body>
+            <ul>
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/giri%C5%9F%20kay%C4%B1t.html">
+                            <span>
+                                Giriş / Üye Ol
+                            </span>
+                            <span>
+                                Giriş / Üye Ol
+                            </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/1%20Eyl%C3%BCl.html">
+                            <span>
+                                Anasayfa
+                            </span>
+                            <span>
+                                Anasayfa
+                            </span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/hakk%C4%B1nda-2.html">
+                            <span>
+                                Hakkında
+                            </span>
+                            <span>
+                                Hakkında
+                            </span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/i%C3%A7erikler.html">
+                            <span>
+                                İçerikler
+                            </span>
+                            <span>
+                                İçerikler
+                            </span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/Hata%20Mesaj%C4%B1.html">
+                            <span>
+                                Özgeçmiş
+                            </span>
+                            <span>
+                                Özgeçmiş
+                            </span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/Hata%20Mesaj%C4%B1.html">
+                            <span>
+                                Takım
+                            </span>
+                            <span>
+                                Takım
+                            </span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="file:///C:/Users/Lenovo/Desktop/ileti%C5%9Fim.html" id="iletisim">
+                            <span>
+                                İletişim
+                            </span>
+                            <span>
+                                İletişim
+                            </span>
+                    </a>
+                </li>
+    
+            </ul>
+        </body>
+    
+    
+        <body>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+            <form>
+                <div id="box">
+                    <input type="text" id="search" placeholder="Ara...">
+                    <i class="fa fa-search"></i>
+                </div>
+            </form>
+        </body>
+    
+    
+        <body>
+            <h2><p id="blog"> BLOG </h2>
+            <h2><p id="python"> Python </h2>
+            <h2><p id="c"> C# </h2>
+            <h3><p id="dfazla"><a href="file:///C:/Users/Lenovo/Desktop/i%C3%A7erikler.html" title="Daha Fazla İçerik...">Daha Fazla İçerik...</a></h3>
+            <h2 id="yorum">Yorum Bırakın<p>Yorumunuz Bizler için Önemli</p></h2>
+    
+        </body>
+        
+        <body>
+
+            <div class="wrapper">
+                <div class="form">
+                    <div class="input_field">
+                        <input type="text" placeholder="İsim" class="input">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Soyisim" class="input">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="input_field">
+                        <input type="e-mail" placeholder="E-mail" class="input">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Yorumunuz..." class="input2">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="btn">
+                            <a href="#">Gönder</a>
+                    </div>
+                </div>
+            </div>
+        </body>
+
+            
+        <body>
+                <ol>
+                    <li><a href="#" title="Neden Kodlama ve Yazılıma Python İle Başlamalıyız?"> Neden Kodlama ve Yazılıma Python İle Başlamalıyız? </li></a>
+                    <li><a href="#" title="Python: Listeler(list) Nedir?"> Python: Listeler(list) Nedir? </li></a>
+                    <li><a href="#" title="Python: Listelerin Fonksiyonları Nelerdir?"> Python: Listelerin Fonksiyonları Nelerdir?</li></a>
+                    <li><a href="#" title="Python: Yeni Başlayanlar İçin 25 Basit Python Örnekleri"> Python: Yeni Başlayanlar İçin 25 Basit Python Örnekleri </li></a>
+                    <li><a href="#" title="Python: Tkinter Modülü Nedir ve Ne İşe Yarar?"> Python: Tkinter Modülü Nedir ve Ne İşe Yarar? </li></a>
+                </ol>
+                <ol id="ol2">
+                    <li><a href="#" title="C# Dilinde Ekrana 'Merhaba Dünya' Yazdırma"> C# Dilinde Ekrana "Merhaba Dünya" Yazdırma </li></a>
+                    <li><a href="#" title="C# Dilinde Veri Tipleri Nelerdir?"> C# Dilinde Veri Tipleri Nelerdir? </li></a>
+                    <li><a href="#" title="C# Dilinde İf, Else if, Else Yapısı"> C# Dilinde İf, Else if, Else Yapısı </li></a>
+                    <li><a href="#" title="C# Dilinde 'Single Line İf' Nedir?"> C# Dilinde "Single Line İf" Nedir? </li></a>
+                    <li><a href="#" title="C# Dilinde 'Switc' Nedir?"> C# Dilinde "Switch" Nedir? </li></a>
+                </ol>
+    
+        </body>
+    
+        <body>
+            <p id="dipnot">Bu Site " Berşan Yalnız " Tarafından Oluşturulmuştur.  Tüm Hakları Saklıdır</p>
+        </body>
+
+    </body>
+
+    
+    
+</html>
